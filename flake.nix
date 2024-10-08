@@ -19,6 +19,7 @@
         ./nix/formatting.nix
         ./nix/vim-plugin.nix
         ./nix/demos
+        ./nix/shell.nix
       ];
     };
 }
