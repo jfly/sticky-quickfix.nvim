@@ -9,7 +9,18 @@ For example, here's what happens without this plugin:
 
 ![demonstration of vim quickfix list losing the quickfix location](doc/before.svg)
 
-And here's what happens with this plugin:
+In case that's hard to follow, here's what happening above:
+
+1. `vi hgttg.py`: Open a Python file with a bunch of warning diagnostics.
+2. `:lua vim.diagnostic.setqflist()`: Populate the quickfix list with those diagnostics.
+3. `jj...<CR>`: Select and "open" the Nth diagnostic.
+4. Fix the diagnostic by removing the unnecessary `f`-string.
+5. `:lua vim.diagnostic.setqflist()`: Repopulate the quickfix list. Note that
+   the quickfix list now has the first entry selected, even though we were
+   quite a ways down the list.
+
+And here's the exact same sequence of events, but with this plugin enabled.
+Note where how we end in a different (more sane) place in the quickfix list:
 
 ![demonstration of vim quickfix list preserving the quickfix location](doc/after.svg)
 
