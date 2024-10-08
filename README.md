@@ -39,8 +39,8 @@ accomplish this!
   [trouble.nvim](https://github.com/folke/trouble.nvim), which does not have this
   issue.
 - IMO, the behavior in this plugin feels reasonable to try to upstream to
-  Neovim itself. I have not yet filed an issue with core Neovim to see how they
-  feel about it, though.
+  Neovim itself. I've filed an issue asking for this here:
+  <https://github.com/neovim/neovim/issues/30724>.
 
 # Development
 
