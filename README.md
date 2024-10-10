@@ -49,9 +49,9 @@ accomplish this!
 - For LSP diagontics, some people use
   [trouble.nvim](https://github.com/folke/trouble.nvim), which does not have this
   issue.
-- IMO, the behavior in this plugin feels reasonable to try to upstream to
-  Neovim itself. I've filed an issue asking for this here:
-  <https://github.com/neovim/neovim/issues/30724>.
+- It sounds like Neovim will accept this patch if it lands in Vim:
+  - Discussion with Neovim: <https://github.com/neovim/neovim/issues/30724#issuecomment-2402040885>
+  - My attempt to add this to Vim: <https://github.com/vim/vim/pull/15841>
 
 # Development
 
