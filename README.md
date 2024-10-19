@@ -1,3 +1,9 @@
+> [!WARNING]
+> This plugin is archived:
+> - I upstreamed the core logic to Vim in <https://github.com/vim/vim/pull/15841>
+> - That landed in Neovim in <https://github.com/neovim/neovim/pull/30820>
+> - I've made a followup change to Neovim to make even easier to use here <https://github.com/neovim/neovim/pull/30868>
+
 # sticky-quickfix
 
 If you update a quickfix list, Neovim loses your location in the list.
